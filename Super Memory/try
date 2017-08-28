@@ -1,0 +1,7 @@
+from range import*
+wordlist=open("wordlist.txt",'r')
+lines=wordlist.readlines()
+testNum=input("How many words do you want to test? ")
+for i in range(testNum):
+    line= lines[randrange(0,testNum)]
+        
